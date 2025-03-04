@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilorie Consult Limited - Financial & Management Consulting</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Ilorie Consult</h1>
+            </div>
+            <nav>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Financial & Management Solutions for Your Business</h1>
+                <p>Specialized consulting services for Micro, Small, and Medium Enterprises in Kenya and beyond</p>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Company Profile</h3>
+                    <p>Ilorie Consult Limited is a dynamic and client-focused financial and management consulting firm based in Nairobi, Kenya. Specializing in serving Micro, Small, and Medium Enterprises (MSMEs) in Kenya and beyond, we are committed to providing tailored solutions that address the unique challenges and opportunities faced by businesses of this scale.</p>
+                    <p>Our team of experienced professionals is dedicated to helping your business thrive through strategic financial planning, management consulting, and business development services.</p>
+                </div>
+                <div class="about-image">
+                    <img src="/placeholder.svg?height=400&width=600" alt="Ilorie Consult Team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Accounts & Bookkeeping</h3>
+                    <p>Comprehensive accounting and bookkeeping services to keep your financial records accurate and up-to-date.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Valuation</h3>
+                    <p>Expert business valuation services to determine the true worth of your enterprise for investment, sale, or strategic planning.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search-dollar"></i>
+                    </div>
+                    <h3>Audit & Research</h3>
+                    <p>Thorough audit services and market research to identify opportunities and ensure compliance.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Business Development</h3>
+                    <p>Strategic business development consulting to help your enterprise grow and expand into new markets.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                    <h3>Tax Consultancy</h3>
+                    <p>Expert tax planning and consultancy services to optimize your tax position and ensure compliance with regulations.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Management Consulting</h3>
+                    <p>Tailored management consulting services to improve operational efficiency and strategic decision-making.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="location">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Location</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="location-content">
+                <div class="location-info">
+                    <h3>Visit Our Office</h3>
+                    <p>Our office is conveniently situated at Revlon Professional Plaza in Nairobi, Kenya. This strategic location allows us to serve our clients efficiently and be easily accessible for consultations.</p>
+                    <div class="address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Revlon Professional Plaza<br>Nairobi, Kenya</p>
+                    </div>
+                </div>
+                <div class="location-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.347059646086!2d36.81978675!3d-1.2864839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d8eeeaee53%3A0xb1f0a514d4744da!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2sus!4v1709558400000!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@ilorieconsult.com">info@ilorieconsult.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>Revlon Professional Plaza<br>Nairobi, Kenya</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <h3>Website</h3>
+                        <p><a href="http://www.ilorieconsult.com" target="_blank">www.ilorieconsult.com</a></p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/IlorieConsultLimited" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/company/ilorie-consult-limited" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Ilorie Consult</h2>
+                    <p>Financial & Management Consulting</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#location">Location</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Revlon Professional Plaza, Nairobi, Kenya</p>
+                    <p><i class="fas fa-envelope"></i> info@ilorieconsult.com</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/IlorieConsultLimited" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/company/ilorie-consult-limited" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ilorie Consult Limited. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
